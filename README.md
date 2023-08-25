@@ -24,19 +24,19 @@ Here are some of the key machine learning models implemented in this repository:
 
 ### Support Vector Regression (SVR)
 
-SVR is a powerful regression technique that aims to find a hyperplane that best fits the data points. It's particularly useful for predicting continuous values in financial scenarios, such as stock prices or commodity prices.
+SVR is a powerful regression technique that aims to find a hyperplane that best fits the data points. It's particularly useful for predicting continuous values in financial scenarios, such as stock prices or commodity prices. [Code](StockPrediction_SVR.ipynb)
 
 ### Recurrent Neural Networks (RNNs)
 
-RNNs are a class of neural networks designed to handle sequential data. In finance, RNNs can be employed to analyze time-series data, making them valuable for tasks like predicting market trends and stock prices.
+RNNs are a class of neural networks designed to handle sequential data. In finance, RNNs can be employed to analyze time-series data, making them valuable for tasks like predicting market trends and stock prices. [Code](StockPrediction_RNNs.ipynb)
 
 ### Long Short-Term Memory (LSTM) Networks
 
-LSTMs are a specialized type of RNN that can capture long-range dependencies in sequential data. In finance, LSTMs are used for tasks like portfolio management, credit risk assessment, and high-frequency trading predictions.
+LSTMs are a specialized type of RNN that can capture long-range dependencies in sequential data. In finance, LSTMs are used for tasks like portfolio management, credit risk assessment, and high-frequency trading predictions. [Code](StockPrediction_LSTM.ipynb)
 
 ### Autoregressive Integrated Moving Average (ARIMA)
 
-ARIMA is a classical time-series forecasting method. It's particularly suitable for predicting future values based on past observations. ARIMA can be applied to financial data to forecast stock prices, exchange rates, and more.
+ARIMA is a classical time-series forecasting method. It's particularly suitable for predicting future values based on past observations. ARIMA can be applied to financial data to forecast stock prices, exchange rates, and more. [Code](StockPrediction_ARIMA.ipynb)
 
 Each model directory contains the necessary code files and a README explaining the model's theory, application, and how to run the code effectively.
 
@@ -60,9 +60,9 @@ This repository thrives on contributions! If you've implemented additional machi
 
 To deepen your understanding of machine learning in finance, explore these additional resources:
 
-- Recommended Books and Research Papers
-- Online Courses and Tutorials
-- Financial Data Sources
+### Recommended Books
+- **An Elementary Introduction to Mathematical Finance** by Sheldon M. Ross ([Amazon link](https://www.amazon.in/Elementary-Introduction-Mathematical-Finance/dp/0521192536))
+- **Machine Learning in Finance** by Matthew F. Dixon ([Amazon link](https://www.amazon.in/Machine-Learning-Finance-Theory-Practice/dp/3030410676))
 
 Remember that while this repository provides practical implementations, a solid grasp of machine learning concepts and financial domain knowledge is essential for effective application.
 
